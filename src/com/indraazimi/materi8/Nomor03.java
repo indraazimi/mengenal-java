@@ -13,7 +13,7 @@ public class Nomor03 {
         int jumlah = 0;
 
         // Untuk mendapatkan banyak data di array, kita memanggil length
-        // Di sini nilai.length = 10 karena ada 10 data di array nilai
+        // Di sini nilai.length = 5 karena ada 5 data di array nilai
         for (int i = 0; i < nilai.length; i++) {
             jumlah = jumlah + nilai[i];
         }
