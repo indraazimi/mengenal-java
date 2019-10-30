@@ -2,6 +2,10 @@ package com.indraazimi.materi8;
 
 import java.util.Scanner;
 
+/**
+ * Contoh program sederhana yang meminta dua buah matriks
+ * dari pengguna, lalu menampilkan hasil penjumlahannya.
+ */
 public class Nomor10 {
 
     public static void main(String[] args) {

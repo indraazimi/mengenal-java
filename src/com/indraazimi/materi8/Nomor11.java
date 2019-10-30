@@ -2,6 +2,10 @@ package com.indraazimi.materi8;
 
 import java.util.Scanner;
 
+/**
+ * Program sederhana yang meminta nama dari pengguna,
+ * lalu menampilkan nama tersebut mulai dari belakang.
+ */
 public class Nomor11 {
 
     public static void main(String[] args) {

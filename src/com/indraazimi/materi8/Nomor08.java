@@ -1,5 +1,12 @@
 package com.indraazimi.materi8;
 
+/**
+ * Contoh lain dari nested loop. Ingat sekali lagi, bahwa pada
+ * nested loop, loop pertama (i) tidak akan lanjut ke iterasi
+ * selanjutnya sebelum loop kedua (j) selesai dieksekusi.
+ *
+ * Coba perkirakan, berapakah output dari program ini?
+ */
 public class Nomor08 {
 
     public static void main(String[] args) {
