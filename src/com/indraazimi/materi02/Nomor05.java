@@ -6,11 +6,10 @@ public class Nomor05 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String nama = scanner.nextLine();
-        int tahun = scanner.nextInt();
-        int usia = 2019 - tahun;
-        System.out.println("Hai, " + nama + ".");
-        System.out.println("Kamu lahir tahun " + tahun + ".");
-        System.out.println("Berarti usiamu sekarang " + usia + " tahun ya?");
+        int nilai1 = scanner.nextInt();
+        int nilai2 = scanner.nextInt();
+        int nilai3 = scanner.nextInt();
+        float rata2 = (nilai1 + nilai2 + nilai3) / 3f;
+        System.out.println(rata2);
     }
 }

@@ -2,11 +2,21 @@ package com.indraazimi.materi07;
 
 public class Nomor06 {
 
-    public static void main(String[] args) {
-        int total = 0;
-        for (int i = 1; i <= 5; i++) {
-            total = total + i;
+    private static boolean checkWifi() {
+        return false;
+    }
+
+    private static void searchWifi() {
+        for (int i = 1; i <= 10; i++) {
+            boolean wifiAvailable = checkWifi();
+            if (wifiAvailable) {
+                System.out.println("Wifi found!");
+                break;
+            }
         }
-        System.out.println(total);
+    }
+
+    public static void main(String[] args) {
+        searchWifi();
     }
 }

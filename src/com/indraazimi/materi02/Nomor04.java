@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class Nomor04 {
 
     public static void main(String[] args) {
+        final float PI = 3.14f;
+
         Scanner scanner = new Scanner(System.in);
-        int nilai1 = scanner.nextInt();
-        int nilai2 = scanner.nextInt();
-        int nilai3 = scanner.nextInt();
-        float rata2 = (nilai1 + nilai2 + nilai3) / 3f;
-        System.out.println(rata2);
+        float jari2 = scanner.nextFloat();
+        float keliling = 2 * PI * jari2;
+        System.out.println(keliling);
     }
 }
