@@ -89,6 +89,9 @@ Hello, World!
 5. Tebak Angka Lanjut
 6. Bilangan Armstrong
 
+### Materi 11: Unit Testing
+1. Bilangan Armstrong
+
 ---
 
 Jika Anda merasa ada coding yang salah, mohon laporkan dengan membuat issue baru.
