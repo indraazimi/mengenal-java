@@ -2,6 +2,10 @@ package com.indraazimi.materi11;
 
 import java.util.Scanner;
 
+/**
+ * Program untuk menguji sebuah bilangan bulat yang diinputkan
+ * pengguna merupakan bilangan Armstrong atau bukan.
+ */
 public class Nomor01A {
 
     static boolean isArmstrongNumber(int angka) {

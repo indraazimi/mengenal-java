@@ -91,6 +91,8 @@ Hello, World!
 
 ### Materi 11: Unit Testing
 1. Bilangan Armstrong
+2. KPK 2 Bilangan
+3. FPB 2 Bilangan
 
 ---
 
